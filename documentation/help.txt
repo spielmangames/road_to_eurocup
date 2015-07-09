@@ -1,0 +1,3 @@
+
+php app/console doctrine:generate:entities AppBundle/Entity
+php app/console doctrine:schema:update --force
