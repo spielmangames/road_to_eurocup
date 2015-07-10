@@ -3,7 +3,9 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection as ArrayCollection;
 use AppBundle\Entity\Team as Team;
+use AppBundle\Entity\Perk as Perk;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
@@ -42,6 +44,15 @@ class Player
     protected $team;
 
     /**
+     * @ORM\ManyToMany(targetEntity="Perk")
+     * @ORM\JoinTable(name="players_perks",
+     *      joinColumns={@ORM\JoinColumn(name="player_id", referencedColumnName="id")},
+     *      inverseJoinColumns={@ORM\JoinColumn(name="perk_id", referencedColumnName="id")}
+     *      )
+     */
+    protected $perks;
+
+    /**
      * @ORM\Column(type="boolean")
      */
     protected $classic;
@@ -50,6 +61,10 @@ class Player
      * @ORM\Column(type="boolean")
      */
     protected $enabled;
+
+    public function __construct() {
+        $this->perks = new ArrayCollection();
+    }
 
     /**
      * Get id
@@ -197,5 +212,38 @@ class Player
     public function getEnabled()
     {
         return $this->enabled;
+    }
+
+    /**
+     * Add perk
+     *
+     * @param Perk $perk
+     * @return Player
+     */
+    public function addPerk(Perk $perk)
+    {
+        $this->perks[] = $perk;
+
+        return $this;
+    }
+
+    /**
+     * Remove perk
+     *
+     * @param Perk $perk
+     */
+    public function removePerk(Perk $perk)
+    {
+        $this->perks->removeElement($perk);
+    }
+
+    /**
+     * Get perks
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getPerks()
+    {
+        return $this->perks;
     }
 }
