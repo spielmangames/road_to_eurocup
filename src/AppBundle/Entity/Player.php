@@ -39,7 +39,7 @@ class Player
      * @ORM\ManyToOne(targetEntity="Team", inversedBy="players")
      * @ORM\JoinColumn(name="team_id", referencedColumnName="id")
      */
-    protected $nationality;
+    protected $team;
 
     /**
      * @ORM\Column(type="boolean")
@@ -131,26 +131,26 @@ class Player
     }
 
     /**
-     * Set nationality
+     * Set team
      *
-     * @param Team $nationality
+     * @param Team $team
      * @return Player
      */
-    public function setNationality(Team $nationality = null)
+    public function setTeam(Team $team = null)
     {
-        $this->nationality = $nationality;
+        $this->team = $team;
 
         return $this;
     }
 
     /**
-     * Get nationality
+     * Get team
      *
      * @return Team
      */
-    public function getNationality()
+    public function getTeam()
     {
-        return $this->nationality;
+        return $this->team;
     }
 
     /**
