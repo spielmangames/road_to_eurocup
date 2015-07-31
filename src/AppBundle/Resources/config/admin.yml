@@ -1,11 +1,31 @@
 services:
-    sonata.admin.post:
+    sonata.admin.team:
         class: AppBundle\Admin\TeamAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm, group: "qwerty1", label: "Team" }
+            - { name: sonata.admin, manager_type: orm, group: "primary cards", label: "Team" }
         arguments:
             - ~
             - AppBundle\Entity\Team
+            - ~
+        calls:
+            - [ setTranslationDomain, [AppBundle]]
+    sonata.admin.player:
+        class: AppBundle\Admin\PlayerAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "primary cards", label: "Player" }
+        arguments:
+            - ~
+            - AppBundle\Entity\Player
+            - ~
+        calls:
+            - [ setTranslationDomain, [AppBundle]]
+    sonata.admin.perk:
+        class: AppBundle\Admin\PerkAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "additional data", label: "Perk" }
+        arguments:
+            - ~
+            - AppBundle\Entity\Perk
             - ~
         calls:
             - [ setTranslationDomain, [AppBundle]]

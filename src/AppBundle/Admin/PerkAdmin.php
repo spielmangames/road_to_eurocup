@@ -2,20 +2,24 @@
 
 namespace AppBundle\Admin;
 
+use AppBundle\Entity\Perk;
 use Sonata\AdminBundle\Admin\Admin;
-use Sonata\AdminBundle\Datagrid\ListMapper;
-use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Form\FormMapper;
+use Sonata\AdminBundle\Datagrid\DatagridMapper;
+use Sonata\AdminBundle\Datagrid\ListMapper;
+use Sonata\AdminBundle\Show\ShowMapper;
 
-class TeamAdmin extends Admin
+class PerkAdmin extends Admin
 {
     // Fields to be shown on create/edit forms
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('name', 'text', array('label' => 'Title'))
+            ->add('dice', 'integer')
+            ->add('name', 'text', array('label' => 'Name'))
+            ->add('description', 'textarea', array())
             ->add('enabled', null, array('required' => false))
-        ;
+            ->add('type', 'choice', array('choices' => Perk::getTypeList()));
     }
 
     // Fields to be shown on filter forms
@@ -23,8 +27,7 @@ class TeamAdmin extends Admin
     {
         $datagridMapper
             ->add('name')
-            ->add('enabled')
-        ;
+            ->add('dice');
     }
 
     // Fields to be shown on lists
@@ -32,19 +35,20 @@ class TeamAdmin extends Admin
     {
         $listMapper
             ->addIdentifier('id')
+            ->add('dice', null, array('editable' => true))
             ->add('name', null, array('editable' => true))
+            ->add('type')
             ->add(
                 '_action',
                 'actions',
                 array(
                     'actions' => array(
-                        'edit' => array(),
                         'view' => array(),
+                        'edit' => array(),
                     )
                 )
             )
-            ->add('enabled', null, array('editable' => true))
-        ;
+            ->add('enabled', null, array('editable' => true));
     }
 
     /**

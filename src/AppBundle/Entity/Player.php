@@ -62,7 +62,8 @@ class Player
      */
     protected $enabled;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->perks = new ArrayCollection();
     }
 
@@ -240,7 +241,7 @@ class Player
     /**
      * Get perks
      *
-     * @return \Doctrine\Common\Collections\Collection 
+     * @return \Doctrine\Common\Collections\Collection
      */
     public function getPerks()
     {

@@ -162,10 +162,29 @@ class Perk
     /**
      * Get type
      *
-     * @return string 
+     * @return string
      */
     public function getType()
     {
         return $this->type;
+    }
+
+    /**
+     * @return array
+     */
+    public static function getTypeList()
+    {
+        return [
+            'attack' => 'attack',
+            'defence' => 'defence'
+        ];
+    }
+
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getName();
     }
 }
