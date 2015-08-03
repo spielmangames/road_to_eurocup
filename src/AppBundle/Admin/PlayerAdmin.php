@@ -6,21 +6,25 @@ use Sonata\AdminBundle\Admin\Admin;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
-use Sonata\AdminBundle\Show\ShowMapper;
 
 class PlayerAdmin extends Admin
 {
-    // Fields to be shown on create/edit forms
+    /**
+     * @param FormMapper $formMapper
+     *
+     * @return void
+     */
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('name', 'text', array('label' => 'Name'))
+            ->add('name', 'text')
             ->add(
                 'team',
                 'sonata_type_model_list',
                 array(
-                    'btn_add' => 'add new Team...',
-                    'btn_list' => 'select Team...',
+                    'label' => 'Nationality',
+                    'btn_add' => 'Add new Team...',
+                    'btn_list' => 'Select Team...',
                     'btn_delete' => false,
                 )
             )
@@ -32,24 +36,33 @@ class PlayerAdmin extends Admin
                     'class' => 'AppBundle:Perk',
                     'choice_label' => 'name',
                     'multiple' => true,
-                    'required' => false,
+                    'required' => true,
                 )
             )
-            ->add('transfermarkt')
+            ->add('transfermarkt', null, array('label' => 'Link to "Player data" page on Transfermarkt'))
             ->add('classic', null, array('required' => false))
             ->add('enabled', null, array('required' => false));
     }
 
-    // Fields to be shown on filter forms
+    /**
+     * @param DatagridMapper $datagridMapper
+     *
+     * @return void
+     */
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
         $datagridMapper
             ->add('name')
-            ->add('classic')
-            ->add('enabled');
+            ->add('team.name')
+            ->add('born')
+            ->add('classic');
     }
 
-    // Fields to be shown on lists
+    /**
+     * @param ListMapper $listMapper
+     *
+     * @return void
+     */
     protected function configureListFields(ListMapper $listMapper)
     {
         $listMapper
@@ -70,7 +83,7 @@ class PlayerAdmin extends Admin
                     )
                 )
             )
-            ->add('enabled', null, array('editable' => true));
+            ->add('enabled');
     }
 
     /**

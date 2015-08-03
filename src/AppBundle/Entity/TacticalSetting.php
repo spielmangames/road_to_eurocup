@@ -3,14 +3,12 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
  * @ORM\Entity
- * @ORM\Table(name="perk")
- * @UniqueEntity("dice")
+ * @ORM\Table(name="tactical_setting")
  */
-class Perk
+class TacticalSetting
 {
     /**
      * @ORM\Column(type="integer")
@@ -18,11 +16,6 @@ class Perk
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     protected $id;
-
-    /**
-     * @ORM\Column(type="integer", length=2, unique=true)
-     */
-    protected $dice;
 
     /**
      * @ORM\Column(type="string", length=64)
@@ -35,9 +28,19 @@ class Perk
     protected $description;
 
     /**
-     * @ORM\Column(type="string", columnDefinition="ENUM('attack', 'defence')")
+     * @ORM\Column(type="string", length=256)
      */
-    protected $type;
+    protected $result;
+
+    /**
+     * @ORM\Column(type="string", length=256, nullable=true)
+     */
+    protected $note;
+
+    /**
+     * @ORM\Column(type="boolean")
+     */
+    protected $home;
 
     /**
      * @ORM\Column(type="boolean")
@@ -47,7 +50,7 @@ class Perk
     /**
      * Get id
      *
-     * @return integer
+     * @return integer 
      */
     public function getId()
     {
@@ -55,33 +58,10 @@ class Perk
     }
 
     /**
-     * Set dice
-     *
-     * @param integer $dice
-     * @return Perk
-     */
-    public function setDice($dice)
-    {
-        $this->dice = $dice;
-
-        return $this;
-    }
-
-    /**
-     * Get dice
-     *
-     * @return integer
-     */
-    public function getDice()
-    {
-        return $this->dice;
-    }
-
-    /**
      * Set name
      *
      * @param string $name
-     * @return Perk
+     * @return TacticalSetting
      */
     public function setName($name)
     {
@@ -93,7 +73,7 @@ class Perk
     /**
      * Get name
      *
-     * @return string
+     * @return string 
      */
     public function getName()
     {
@@ -104,7 +84,7 @@ class Perk
      * Set description
      *
      * @param string $description
-     * @return Perk
+     * @return TacticalSetting
      */
     public function setDescription($description)
     {
@@ -116,7 +96,7 @@ class Perk
     /**
      * Get description
      *
-     * @return string
+     * @return string 
      */
     public function getDescription()
     {
@@ -124,44 +104,79 @@ class Perk
     }
 
     /**
-     * Set type
+     * Set result
      *
-     * @param string $type
-     * @return Perk
+     * @param string $result
+     * @return TacticalSetting
      */
-    public function setType($type)
+    public function setResult($result)
     {
-        $this->type = $type;
+        $this->result = $result;
 
         return $this;
     }
 
     /**
-     * Get type
+     * Get result
      *
-     * @return string
+     * @return string 
      */
-    public function getType()
+    public function getResult()
     {
-        return $this->type;
+        return $this->result;
     }
 
     /**
-     * @return array
+     * Set note
+     *
+     * @param string $note
+     * @return TacticalSetting
      */
-    public static function getTypeList()
+    public function setNote($note)
     {
-        return [
-            'attack' => 'attack',
-            'defence' => 'defence'
-        ];
+        $this->note = $note;
+
+        return $this;
+    }
+
+    /**
+     * Get note
+     *
+     * @return string
+     */
+    public function getNote()
+    {
+        return $this->note;
+    }
+
+    /**
+     * Set home
+     *
+     * @param boolean $home
+     * @return TacticalSetting
+     */
+    public function setHome($home)
+    {
+        $this->home = $home;
+
+        return $this;
+    }
+
+    /**
+     * Get home
+     *
+     * @return boolean 
+     */
+    public function getHome()
+    {
+        return $this->home;
     }
 
     /**
      * Set enabled
      *
      * @param boolean $enabled
-     * @return Perk
+     * @return TacticalSetting
      */
     public function setEnabled($enabled)
     {
@@ -173,18 +188,10 @@ class Perk
     /**
      * Get enabled
      *
-     * @return boolean
+     * @return boolean 
      */
     public function getEnabled()
     {
         return $this->enabled;
-    }
-
-    /**
-     * @return string
-     */
-    public function __toString()
-    {
-        return $this->getName();
     }
 }

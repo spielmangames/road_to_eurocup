@@ -7,7 +7,7 @@ use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 
-class TeamAdmin extends Admin
+class TacticalSettingAdmin extends Admin
 {
     /**
      * @param FormMapper $formMapper
@@ -17,7 +17,11 @@ class TeamAdmin extends Admin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('name', 'text', array('label' => 'Title'))
+            ->add('name', 'text')
+            ->add('description', 'textarea')
+            ->add('result', 'textarea')
+            ->add('note', 'textarea', array('required' => false))
+            ->add('home', null, array('required' => false, 'label' => 'Can be used by home team only'))
             ->add('enabled', null, array('required' => false));
     }
 
@@ -29,7 +33,8 @@ class TeamAdmin extends Admin
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
         $datagridMapper
-            ->add('name');
+            ->add('name')
+            ->add('home', null, array('label' => 'Home type'));
     }
 
     /**
@@ -42,25 +47,18 @@ class TeamAdmin extends Admin
         $listMapper
             ->addIdentifier('id')
             ->add('name')
-            ->add('playersQty', null, array('label' => 'Squad'))
+            ->add('result')
+            ->add('home', null, array('label' => 'Home type'))
             ->add(
                 '_action',
                 'actions',
                 array(
                     'actions' => array(
-                        'edit' => array(),
                         'view' => array(),
+                        'edit' => array(),
                     )
                 )
             )
             ->add('enabled');
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function toString($object)
-    {
-        return $object->getName();
     }
 }

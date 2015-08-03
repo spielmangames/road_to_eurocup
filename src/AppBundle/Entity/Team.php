@@ -3,9 +3,9 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Doctrine\Common\Collections\ArrayCollection as ArrayCollection;
 use AppBundle\Entity\Player as Player;
-use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
  * @ORM\Entity
@@ -22,7 +22,7 @@ class Team
     protected $id;
 
     /**
-     * @ORM\Column(type="string", length=100, unique=true)
+     * @ORM\Column(type="string", length=64, unique=true)
      */
     protected $name;
 
@@ -128,5 +128,13 @@ class Team
     public function getEnabled()
     {
         return $this->enabled;
+    }
+
+    /**
+     * @return int
+     */
+    public function getPlayersQty()
+    {
+        return count($this->players);
     }
 }

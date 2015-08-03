@@ -7,7 +7,7 @@ use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
 
-class TeamAdmin extends Admin
+class PositionAdmin extends Admin
 {
     /**
      * @param FormMapper $formMapper
@@ -17,8 +17,8 @@ class TeamAdmin extends Admin
     protected function configureFormFields(FormMapper $formMapper)
     {
         $formMapper
-            ->add('name', 'text', array('label' => 'Title'))
-            ->add('enabled', null, array('required' => false));
+            ->add('name', 'text')
+            ->add('description', 'textarea');
     }
 
     /**
@@ -29,7 +29,8 @@ class TeamAdmin extends Admin
     protected function configureDatagridFilters(DatagridMapper $datagridMapper)
     {
         $datagridMapper
-            ->add('name');
+            ->add('name')
+            ->add('description');
     }
 
     /**
@@ -42,25 +43,16 @@ class TeamAdmin extends Admin
         $listMapper
             ->addIdentifier('id')
             ->add('name')
-            ->add('playersQty', null, array('label' => 'Squad'))
+            ->add('description')
             ->add(
                 '_action',
                 'actions',
                 array(
                     'actions' => array(
-                        'edit' => array(),
                         'view' => array(),
+                        'edit' => array(),
                     )
                 )
-            )
-            ->add('enabled');
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function toString($object)
-    {
-        return $object->getName();
+            );
     }
 }

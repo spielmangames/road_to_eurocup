@@ -2,7 +2,7 @@ services:
     sonata.admin.team:
         class: AppBundle\Admin\TeamAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm, group: "primary cards", label: "Team" }
+            - { name: sonata.admin, manager_type: orm, group: "Cards", label: "Team" }
         arguments:
             - ~
             - AppBundle\Entity\Team
@@ -12,17 +12,37 @@ services:
     sonata.admin.player:
         class: AppBundle\Admin\PlayerAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm, group: "primary cards", label: "Player" }
+            - { name: sonata.admin, manager_type: orm, group: "Cards", label: "Player" }
         arguments:
             - ~
             - AppBundle\Entity\Player
             - ~
         calls:
             - [ setTranslationDomain, [AppBundle]]
+    sonata.admin.tacticalsetting:
+        class: AppBundle\Admin\TacticalSettingAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Cards", label: "Tactical Setting" }
+        arguments:
+            - ~
+            - AppBundle\Entity\TacticalSetting
+            - ~
+        calls:
+            - [ setTranslationDomain, [AppBundle]]
+    sonata.admin.position:
+        class: AppBundle\Admin\PositionAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Skills", label: "Position" }
+        arguments:
+            - ~
+            - AppBundle\Entity\Position
+            - ~
+        calls:
+            - [ setTranslationDomain, [AppBundle]]
     sonata.admin.perk:
         class: AppBundle\Admin\PerkAdmin
         tags:
-            - { name: sonata.admin, manager_type: orm, group: "additional data", label: "Perk" }
+            - { name: sonata.admin, manager_type: orm, group: "Skills", label: "Perk" }
         arguments:
             - ~
             - AppBundle\Entity\Perk

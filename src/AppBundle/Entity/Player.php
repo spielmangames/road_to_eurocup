@@ -3,10 +3,10 @@
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Doctrine\Common\Collections\ArrayCollection as ArrayCollection;
-use AppBundle\Entity\Team as Team;
-use AppBundle\Entity\Perk as Perk;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
+use Doctrine\Common\Collections\ArrayCollection as ArrayCollection;
+use AppBundle\Entity\Perk as Perk;
+use AppBundle\Entity\Team as Team;
 
 /**
  * @ORM\Entity
@@ -23,7 +23,7 @@ class Player
     protected $id;
 
     /**
-     * @ORM\Column(type="string", length=100, unique=true)
+     * @ORM\Column(type="string", length=64, unique=true)
      */
     protected $name;
 
@@ -33,7 +33,7 @@ class Player
     protected $born;
 
     /**
-     * @ORM\Column(type="string", length=100)
+     * @ORM\Column(type="string", length=128)
      */
     protected $transfermarkt;
 
@@ -170,6 +170,39 @@ class Player
     }
 
     /**
+     * Add perk
+     *
+     * @param Perk $perk
+     * @return Player
+     */
+    public function addPerk(Perk $perk)
+    {
+        $this->perks[] = $perk;
+
+        return $this;
+    }
+
+    /**
+     * Remove perk
+     *
+     * @param Perk $perk
+     */
+    public function removePerk(Perk $perk)
+    {
+        $this->perks->removeElement($perk);
+    }
+
+    /**
+     * Get perks
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getPerks()
+    {
+        return $this->perks;
+    }
+
+    /**
      * Set classic
      *
      * @param boolean $classic
@@ -213,38 +246,5 @@ class Player
     public function getEnabled()
     {
         return $this->enabled;
-    }
-
-    /**
-     * Add perk
-     *
-     * @param Perk $perk
-     * @return Player
-     */
-    public function addPerk(Perk $perk)
-    {
-        $this->perks[] = $perk;
-
-        return $this;
-    }
-
-    /**
-     * Remove perk
-     *
-     * @param Perk $perk
-     */
-    public function removePerk(Perk $perk)
-    {
-        $this->perks->removeElement($perk);
-    }
-
-    /**
-     * Get perks
-     *
-     * @return \Doctrine\Common\Collections\Collection
-     */
-    public function getPerks()
-    {
-        return $this->perks;
     }
 }
