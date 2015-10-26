@@ -1,0 +1,48 @@
+
+    # каждая сборная должна содержать защитников/полузащитников/нападающих в кол-ве ~ 4/4/2.
+    # класс игрока = максимальная сумма его атрибутов.
+    # приблизительные характеристики оценок классов и аттрибутов:
+        [0] потрачено. он попросту отбывает номер на поле.
+        [1] его игровой потенциал абсолютно неизвестен. по возможности, это явно игрок скамейки.
+        [2] восновном выпадает из игры, но иногда может и выстрелить. помогает команде играть в свою игру.
+            подающий надежды молодой талант, который еще полностью не раскрылся.
+            в абсолютном закате, играет уже на порядок-другой слабее, чем раньше.
+            игровой потенциал в данном аспекте строго ограничен, выше него никак не прыгнуть.
+            ментально не стабилен, на важных матчах нервничает.
+            частенько проваливает матчи.
+        [3] очень полезный, но временами не попадающий в ритм игры.
+            стабильно допускает несколько критических ошибок за матч.
+            постоянно травмирован, не может помочь своей команде добрую часть сезона.
+            отличное решение для ротации.
+        [4] опытный классный стабильный игрок основного состава.
+        [5] легенда, гениально решающий момент за моментом.
+            на поле он умеет всё. партнеры ищут его пасом.
+            вытягивает матчи в одиночку. вытягивает матчи, ведя за собой команду.
+            лидер раздевалки.
+        [6] классический игрок прошлого. ради него смотрели матчи и покупали футболки с его именем на спине.
+            такого игрока мы вспоминаем до сих пор.
+    # на оценку влияют:
+        # как текущая форма игрока, так и его игра в прошлом;
+        # стабильность игры;
+        # сопртивляемость травмам;
+        # кол-во сыграных за сборную матчей.
+    # все оценки являются относительными.
+
+    # player name is unique.
+    # player with {gk} position can't have another positions assigned.
+    # player with {gk} position can have 0 attack attribute level only.
+    # player with {ss} position can have 0 defence attribute level only.
+    # player can have from 1 to 4 positions assigned.
+    # attack/defence attribute level of every player is integer (with step = 1) & is among:
+        # the {0-5} range for non classic players;
+        # the {0-6} range for classic players.
+    # the sum of player's "attack + defence" attributes is among:
+        # the {0-5} range for non classic players;
+        # the {0-6} range for classic players.
+    # player data can be verified via "http://www.transfermarkt.co.uk" service:
+        # is player retired or not;
+        # name does not match the origin;
+        # nationality matches the origin;
+        # date of birth matches the origin;
+        # position ~ matches the origin;
+        # id is unique in scope of "road to eurocup" DB.
