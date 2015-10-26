@@ -56,19 +56,6 @@ france.......antoine griezmonet.......|lf: a4 d0|cf: a3 d0|.....................
 france.......loic remoat..............|lf: a2 d0|cf: a3 d0|rf: a2 d0|............null..................1987..http://www.transfermarkt.com/loic-remy/profil/spieler/45121
 france.......olivier girdoaux.........|cf: a3 d0|................................null..................1986..http://www.transfermarkt.com/olivier-giroud/profil/spieler/82442
 
-spain........david de gii.............|gk: a0 d5|................................null..................1990..http://www.transfermarkt.com/david-de-gea/profil/spieler/59377
-spain........pepe rene................|gk: a0 d2|................................null..................1982..http://www.transfermarkt.com/pepe-reina/profil/spieler/7825
-spain........jon bordetxe.............|lb: a0 d2|cb: a0 d1|......................null..................1992..http://www.transfermarkt.com/jon-aurtenetxe/profil/spieler/89726
-spain........sergio garcia............|cb: a0 d5|rb: a0 d4|dm: a1 d0|............null..................1986..http://www.transfermarkt.com/sergio-ramos/profil/spieler/25557
-spain........raul tortajada...........|cb: a0 d3|................................null..................1985..http://www.transfermarkt.com/raul-albiol/profil/spieler/15452
-spain........cesar azpilla............|lb: a0 d4|rb: a0 d3|......................null..................1989..http://www.transfermarkt.com/cesar-azpilicueta/profil/spieler/57500
-spain........asier andonegi...........|dm: a0 d2|cm: a1 d1|......................null..................1990..http://www.transfermarkt.com/asier-illarramendi/profil/spieler/59344
-spain........xabi olano...............|dm: a1 d3|cm: a2 d2|......................null..................1981..http://www.transfermarkt.com/xabi-alonso/profil/spieler/7476
-spain........andres lujan.............|cm: a3 d1|am: a5 d0|......................null..................1984..http://www.transfermarkt.com/andres-iniesta/profil/spieler/7600
-spain........juan mate................|am: a4 d0|lf: a3 d0|rf: a3 d0|ss: a3 d0|..null..................1988..http://www.transfermarkt.com/juan-mata/profil/spieler/44068
-spain........fernando torrero.........|cf: a3 d0|................................null..................1984..http://www.transfermarkt.com/fernando-torres/profil/spieler/7767
-spain........alvaro martinez..........|cf: a3 d0|................................null..................1992..http://www.transfermarkt.com/alvaro-morata/profil/spieler/128223
-
 holland......michel vomn..............|gk: a0 d3|................................null..................1983..http://www.transfermarkt.com/michel-vorm/profil/spieler/26276
 holland......maarten steekeleken......|gk: a0 d2|................................null..................1982..http://www.transfermarkt.com/maarten-stekelenburg/profil/spieler/4311
 holland......johnny hitingji..........|cb: a0 d2|dm: a0 d1|......................null..................1983..http://www.transfermarkt.com/johnny-heitinga/profil/spieler/4315
@@ -94,5 +81,56 @@ italy........antonio riccardo.........|rm: a1 d1|am: a2 d1|rf: a3 d0|...........
 italy........francesco romano.........|ss: a3 d0|................................null..................1976..http://www.transfermarkt.com/francesco-totti/profil/spieler/5958
 italy........lorenzo insini...........|lf: a4 d0|ss: a2 d0|......................null..................1991..http://www.transfermarkt.com/lorenzo-insigne/profil/spieler/133964
 italy........antonio di nate..........|cf: a3 d0|................................null..................1977..http://www.transfermarkt.com/antonio-di-natale/profil/spieler/6031
+
+russia.......igor akiniev.............|gk: a0 d2|................................null..................1986..http://www.transfermarkt.com/igor-akinfeev/profil/spieler/15570
+russia.......sergey ryzhov............|gk: a0 d1|................................null..................1980..http://www.transfermarkt.com/sergey-ryzhikov/profil/spieler/25035
+russia.......yuriy zharkov............|lb: a0 d2|lm: a1 d1|......................null..................1983..http://www.transfermarkt.com/yuri-zhirkov/profil/spieler/16760
+russia.......sergey ignat.............|cb: a0 d2|................................null..................1979..http://www.transfermarkt.com/sergey-ignashevich/profil/spieler/9644
+russia.......vasiliy bereza...........|cb: a0 d3|................................null..................1982..http://www.transfermarkt.com/vasili-berezutski/profil/spieler/15362
+russia.......roman shiska.............|rb: a0 d2|................................null..................1982..http://www.transfermarkt.com/roman-shishkin/profil/spieler/28937
+russia.......denis gluschenko.........|dm: a0 d2|cm: a1 d1|......................null..................1987..http://www.transfermarkt.com/denis-glushakov/profil/spieler/55336
+russia.......igor denisenko...........|dm: a0 d2|................................null..................1984..http://www.transfermarkt.com/igor-denisov/profil/spieler/15650
+russia.......roman shyrokin...........|dm: a0 d2|cm: a1 d1|......................null..................1981..http://www.transfermarkt.com/roman-shirokov/profil/spieler/48550
+russia.......alan zagoev..............|cm: a1 d1|am: a3 d0|......................null..................1990..http://www.transfermarkt.com/alan-dzagoev/profil/spieler/69683
+russia.......andrey arshanevich.......|am: a2 d1|cf: a2 d0|ss: a3 d0|............null..................1981..http://www.transfermarkt.com/andrey-arshavin/profil/spieler/15378
+
+spain........david de gii.............|gk: a0 d5|................................null..................1990..http://www.transfermarkt.com/david-de-gea/profil/spieler/59377
+spain........pepe rene................|gk: a0 d2|................................null..................1982..http://www.transfermarkt.com/pepe-reina/profil/spieler/7825
+spain........jon bordetxe.............|lb: a0 d2|cb: a0 d1|......................null..................1992..http://www.transfermarkt.com/jon-aurtenetxe/profil/spieler/89726
+spain........sergio garcia............|cb: a0 d5|rb: a0 d4|dm: a1 d0|............null..................1986..http://www.transfermarkt.com/sergio-ramos/profil/spieler/25557
+spain........raul tortajada...........|cb: a0 d3|................................null..................1985..http://www.transfermarkt.com/raul-albiol/profil/spieler/15452
+spain........cesar azpilla............|lb: a0 d4|rb: a0 d3|......................null..................1989..http://www.transfermarkt.com/cesar-azpilicueta/profil/spieler/57500
+spain........asier andonegi...........|dm: a0 d2|cm: a1 d1|......................null..................1990..http://www.transfermarkt.com/asier-illarramendi/profil/spieler/59344
+spain........xabi olano...............|dm: a1 d3|cm: a2 d2|......................null..................1981..http://www.transfermarkt.com/xabi-alonso/profil/spieler/7476
+spain........andres lujan.............|cm: a3 d1|am: a5 d0|......................null..................1984..http://www.transfermarkt.com/andres-iniesta/profil/spieler/7600
+spain........juan mate................|am: a4 d0|lf: a3 d0|rf: a3 d0|ss: a3 d0|..null..................1988..http://www.transfermarkt.com/juan-mata/profil/spieler/44068
+spain........fernando torrero.........|cf: a3 d0|................................null..................1984..http://www.transfermarkt.com/fernando-torres/profil/spieler/7767
+spain........alvaro martinez..........|cf: a3 d0|................................null..................1992..http://www.transfermarkt.com/alvaro-morata/profil/spieler/128223
+
+sweden.......johan willy..............|gk: a0 d1|................................null..................1981..http://www.transfermarkt.com/johan-wiland/profil/spieler/24404
+sweden.......kristoffer nordhamen.....|gk: a0 d1|................................null..................1989..http://www.transfermarkt.com/kristoffer-nordfeldt/profil/spieler/75890
+sweden.......martin olssen............|lb: a0 d1|................................null..................1988..http://www.transfermarkt.com/martin-olsson/profil/spieler/38073
+sweden.......per nills................|cb: a0 d1|................................null..................1982..http://www.transfermarkt.com/per-nilsson/profil/spieler/18100
+sweden.......andreas gransson.........|cb: a0 d2|................................null..................1985..http://www.transfermarkt.com/andreas-granqvist/profil/spieler/29213
+sweden.......mikael luster............|rb: a0 d2|................................null..................1986..http://www.transfermarkt.com/mikael-lustig/profil/spieler/36025
+sweden.......rasmus elme..............|dm: a1 d2|cm: a2 d1|......................null..................1988..http://www.transfermarkt.com/rasmus-elm/profil/spieler/30391
+sweden.......kim mikael...............|cm: a2 d1|................................null..................1982..http://www.transfermarkt.com/kim-kallstrom/profil/spieler/3730
+sweden.......alexander kaniklic.......|lm: a2 d0|rm: a1 d0|......................null..................1991..http://www.transfermarkt.com/alexander-kacaniklic/profil/spieler/51040
+sweden.......jimmy dumraz.............|lf: a1 d0|rf: a1 d0|......................null..................1989..http://www.transfermarkt.com/jimmy-durmaz/profil/spieler/80205
+sweden.......marcus berger............|cf: a1 d0|................................null..................1986..http://www.transfermarkt.com/marcus-berg/profil/spieler/30418
+sweden.......zlatan ibrahim...........|cf: a5 d0|................................null..................1981..http://www.transfermarkt.com/zlatan-ibrahimovic/profil/spieler/3455
+
+ukraine......andriy patyy.............|gk: a0 d2|................................null..................1984..http://www.transfermarkt.com/andriy-pyatov/profil/spieler/39996
+ukraine......maksym kovalchuk.........|gk: a0 d2|................................null..................1992..http://www.transfermarkt.com/maksym-koval/profil/spieler/120211
+ukraine......vyacheslav shevchukov....|lb: a0 d3|................................null..................1979..http://www.transfermarkt.com/vyacheslav-shevchuk/profil/spieler/25820
+ukraine......yaroslav ratskyy.........|cb: a0 d3|................................null..................1989..http://www.transfermarkt.com/yaroslav-rakitsky/profil/spieler/89222
+ukraine......yevhen schedryy..........|cb: a0 d3|................................null..................1987..http://www.transfermarkt.com/evgen-khacheridi/profil/spieler/69004
+ukraine......bohdan butkovets.........|rb: a0 d1|................................null..................1991..http://www.transfermarkt.com/bogdan-butko/profil/spieler/94922
+ukraine......denys garmat.............|dm: a1 d2|cm: a2 d1|......................null..................1990..http://www.transfermarkt.com/denys-garmash/profil/spieler/70754
+ukraine......eder.....................|cm: a1 d1|am: a2 d0|......................null..................1980..http://www.transfermarkt.com/edmar-golovsky/profil/spieler/43299
+ukraine......ruslan rotenko...........|lm: a1 d1|cm: a1 d2|......................null..................1981..http://www.transfermarkt.com/ruslan-rotan/profil/spieler/24049
+ukraine......yevhen konopli...........|am: a2 d0|lf: a4 d0|rf: a2 d0|............null..................1989..http://www.transfermarkt.com/evgen-konoplyanka/profil/spieler/58949
+ukraine......oleh husenchuk...........|lm: a1 d1|rm: a1 d1|......................null..................1983..http://www.transfermarkt.com/oleg-gusev/profil/spieler/9794
+ukraine......roman zozev..............|cf: a1 d0|................................null..................1989..http://www.transfermarkt.com/roman-zozulya/profil/spieler/70767
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
