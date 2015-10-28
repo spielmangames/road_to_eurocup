@@ -1,0 +1,146 @@
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+team.........name.....................attributes per position....................perks.................dob...classic.transfermarkt link............................................................
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+belgium......thibaut courtuji.........|gk: a0 d5|................................null..................1992..false...http://www.transfermarkt.com/thibaut-courtois/profil/spieler/108390
+belgium......silvio protouas..........|gk: a0 d2|................................null..................1983..false...http://www.transfermarkt.com/silvio-proto/profil/spieler/12518
+belgium......sebastien pognolji.......|lb: a0 d2|................................null..................1987..false...http://www.transfermarkt.com/sebastien-pocognoli/profil/spieler/17804
+belgium......nicolas lombartji........|cb: a0 d2|................................null..................1985..false...http://www.transfermarkt.com/nicolas-lombaerts/profil/spieler/20587
+belgium......vincent kompanji.........|cb: a0 d5|................................null..................1986..false...http://www.transfermarkt.com/vincent-kompany/profil/spieler/9594
+belgium......toby underweirevelder....|cb: a0 d4|rb: a0 d2|......................null..................1989..false...http://www.transfermarkt.com/toby-alderweireld/profil/spieler/42710
+belgium......radja naingli............|dm: a0 d3|cm: a1 d2|......................null..................1988..false...http://www.transfermarkt.com/radja-nainggolan/profil/spieler/41982
+belgium......steven defoas............|dm: a0 d2|cm: a2 d1|......................null..................1988..false...http://www.transfermarkt.com/steven-defour/profil/spieler/33866
+belgium......kevin de broone..........|cm: a3 d2|rm: a2 d1|am: a4 d0|............null..................1991..false...http://www.transfermarkt.com/kevin-de-bruyne/profil/spieler/88755
+belgium......eden azaji...............|am: a4 d1|lf: a4 d1|ss: a4 d0|............null..................1991..false...http://www.transfermarkt.com/eden-hazard/profil/spieler/50202
+belgium......adnan janzji.............|lf: a2 d0|rf: a2 d0|......................null..................1995..false...http://www.transfermarkt.com/adnan-januzaj/profil/spieler/177847
+belgium......romelu utaku.............|cf: a3 d0|................................null..................1993..false...http://www.transfermarkt.com/romelu-lukaku/profil/spieler/96341
+belgium......marc willy...............|am: a4 d0|................................null..................1969..true....http://www.transfermarkt.com/marc-wilmots/profil/spieler/286
+
+bosnia.......asmir bregovic...........|gk: a0 d4|................................null..................1987..false...http://www.transfermarkt.com/asmir-begovic/profil/spieler/33873
+bosnia.......asmir avdic..............|gk: a0 d1|................................null..................1981..false...http://www.transfermarkt.com/asmir-avdukic/profil/spieler/28294
+bosnia.......sead kolasic.............|lb: a0 d1|................................null..................1993..false...http://www.transfermarkt.com/sead-kolasinac/profil/spieler/94005
+bosnia.......emir spahisic............|cb: a0 d3|................................null..................1980..false...http://www.transfermarkt.com/emir-spahic/profil/spieler/25812
+bosnia.......toni snujc...............|cb: a0 d1|................................null..................1988..false...http://www.transfermarkt.com/toni-sunjic/profil/spieler/60790
+bosnia.......mensur mujdzic...........|rb: a0 d1|................................null..................1984..false...http://www.transfermarkt.com/mensur-mujdza/profil/spieler/27900
+bosnia.......senad alic...............|lb: a0 d1|lm: a1 d1|......................null..................1986..false...http://www.transfermarkt.com/senad-lulic/profil/spieler/61449
+bosnia.......haris medjani............|dm: a0 d1|cm: a1 d1|am: a1 d0|............null..................1985..false...http://www.transfermarkt.com/haris-medunjanin/profil/spieler/30666
+bosnia.......miralem panic............|cm: a2 d2|am: a3 d0|......................null..................1990..false...http://www.transfermarkt.com/miralem-pjanic/profil/spieler/44162
+bosnia.......sejad salivic............|cm: a1 d1|................................null..................1984..false...http://www.transfermarkt.com/sejad-salihovic/profil/spieler/9354
+bosnia.......vedad ibiskan............|cf: a2 d0|................................null..................1984..false...http://www.transfermarkt.com/vedad-ibisevic/profil/spieler/21175
+bosnia.......edin jeki................|cf: a3 d0|................................null..................1986..false...http://www.transfermarkt.com/edin-dzeko/profil/spieler/28396
+bosnia.......hasan salihadzic.........|rb: a0 d2|lm: a1 d1|rm: a2 d2|............null..................1977..true....http://www.transfermarkt.com/hasan-salihamidzic/profil/spieler/214
+
+england......joe stag.................|gk: a0 d5|................................null..................1987..false...http://www.transfermarkt.com/joe-hart/profil/spieler/40204
+england......jack butlers.............|gk: a0 d3|................................null..................1993..false...http://www.transfermarkt.com/jack-butland/profil/spieler/128899
+england......leighton bins............|lb: a1 d3|................................null..................1984..false...http://www.transfermarkt.com/leighton-baines/profil/spieler/13507
+england......gary calhie..............|cb: a0 d4|................................null..................1985..false...http://www.transfermarkt.com/gary-cahill/profil/spieler/27511
+england......phil john................|cb: a0 d2|rb: a0 d2|dm: a0 d3|............null..................1992..false...http://www.transfermarkt.com/phil-jones/profil/spieler/117996
+england......eric rare................|cb: a0 d2|rb: a0 d2|......................null..................1994..false...http://www.transfermarkt.com/eric-dier/profil/spieler/175722
+england......jordan handler...........|dm: a1 d2|cm: a2 d2|rm: a1 d1|............null..................1990..false...http://www.transfermarkt.com/jordan-henderson/profil/spieler/61651
+england......fabian delfi.............|dm: a0 d2|cm: a1 d2|......................null..................1989..false...http://www.transfermarkt.com/fabian-delph/profil/spieler/50362
+england......jack willson.............|cm: a2 d2|am: a3 d0|......................null..................1992..false...http://www.transfermarkt.com/jack-wilshere/profil/spieler/74223
+england......shaun cameron............|lm: a1 d1|rm: a1 d1|lf: a2 d0|rf: a2 d0|..null..................1981..false...http://www.transfermarkt.com/shaun-wright-phillips/profil/spieler/3467
+england......wayne looney.............|am: a2 d2|cf: a4 d1|ss: a5 d0|............null..................1985..false...http://www.transfermarkt.com/wayne-rooney/profil/spieler/3332
+england......harry storm..............|cf: a3 d0|................................null..................1993..false...http://www.transfermarkt.com/harry-kane/profil/spieler/132098
+england......david devil..............|cm: a3 d3|rm: a4 d2|......................null..................1975..true....http://www.transfermarkt.com/david-beckham/profil/spieler/3139
+
+france.......hugo loix................|gk: a0 d4|................................null..................1986..false...http://www.transfermarkt.com/hugo-lloris/profil/spieler/17965
+france.......mickael andreaut.........|gk: a0 d2|................................null..................1979..false...http://www.transfermarkt.com/mickael-landreau/profil/spieler/3575
+france.......lucas dignoat............|lb: a0 d2|................................null..................1993..false...http://www.transfermarkt.com/lucas-digne/profil/spieler/126664
+france.......raphael varnes...........|cb: a0 d4|................................null..................1993..false...http://www.transfermarkt.com/raphael-varane/profil/spieler/164770
+france.......philippe xemoat..........|cb: a0 d2|................................null..................1982..false...http://www.transfermarkt.com/philippe-mexes/profil/spieler/5422
+france.......mathieu debuchuat........|rb: a0 d3|................................null..................1985..false...http://www.transfermarkt.com/mathieu-debuchy/profil/spieler/27306
+france.......geoffrey grele...........|dm: a0 d3|cm: a1 d1|......................null..................1993..false...http://www.transfermarkt.com/geoffrey-kondogbia/profil/spieler/127189
+france.......yohan cabje..............|dm: a1 d3|cm: a2 d2|am: a3 d0|............null..................1986..false...http://www.transfermarkt.com/yohan-cabaye/profil/spieler/29434
+france.......mathieu valueni..........|am: a4 d0|................................null..................1984..false...http://www.transfermarkt.com/mathieu-valbuena/profil/spieler/40687
+france.......antoine griezmonet.......|lf: a4 d0|cf: a3 d0|......................null..................1991..false...http://www.transfermarkt.com/antoine-griezmann/profil/spieler/125781
+france.......loic remoat..............|lf: a2 d0|cf: a3 d0|rf: a2 d0|............null..................1987..false...http://www.transfermarkt.com/loic-remy/profil/spieler/45121
+france.......olivier girdoaux.........|cf: a3 d0|................................null..................1986..false...http://www.transfermarkt.com/olivier-giroud/profil/spieler/82442
+france.......zineddin lyazid..........|am: a4 d2|ss: a6 d0|......................null..................1972..true....http://www.transfermarkt.com/zinedine-zidane/profil/spieler/3111
+
+holland......michel vomn..............|gk: a0 d3|................................null..................1983..false...http://www.transfermarkt.com/michel-vorm/profil/spieler/26276
+holland......maarten steekeleken......|gk: a0 d2|................................null..................1982..false...http://www.transfermarkt.com/maarten-stekelenburg/profil/spieler/4311
+holland......johnny hitingji..........|cb: a0 d2|dm: a0 d1|......................null..................1983..false...http://www.transfermarkt.com/johnny-heitinga/profil/spieler/4315
+holland......bruno martin indji.......|cb: a0 d3|................................null..................1992..false...http://www.transfermarkt.com/bruno-martins-indi/profil/spieler/112052
+holland......daryl jaanmt.............|rb: a0 d3|................................null..................1989..false...http://www.transfermarkt.com/daryl-janmaat/profil/spieler/60744
+holland......daley blinder............|lb: a1 d2|cb: a1 d1|dm: a1 d2|............null..................1990..false...http://www.transfermarkt.com/daley-blind/profil/spieler/12282
+holland......nigel de jing............|dm: a0 d3|................................null..................1984..false...http://www.transfermarkt.com/nigel-de-jong/profil/spieler/4672
+holland......jordy classiken..........|cm: a1 d1|................................null..................1991..false...http://www.transfermarkt.com/jordy-clasie/profil/spieler/104223
+holland......rafael van der vaarten...|am: a4 d0|ss: a3 d0|......................null..................1983..false...http://www.transfermarkt.com/rafael-van-der-vaart/profil/spieler/4192
+holland......jeremain lesnji..........|lf: a2 d0|rf: a1 do|......................null..................1987..false...http://www.transfermarkt.com/jeremain-lens/profil/spieler/38497
+holland......memphis deepee...........|lf: a3 d0|rf: a3 d0|......................null..................1994..false...http://www.transfermarkt.com/memphis-depay/profil/spieler/167850
+holland......robin van persen.........|cf: a4 d0|................................null..................1983..false...http://www.transfermarkt.com/robin-van-persie/profil/spieler/4380
+holland......clarence zydoorv.........|lm: a1 d1|cm: a3 d3|am: a4 d0|............null..................1976..true....http://www.transfermarkt.com/clarence-seedorf/profil/spieler/4168
+
+italy........gigi baffiano............|gk: a0 d5|................................null..................1978..false...http://www.transfermarkt.com/gianluigi-buffon/profil/spieler/5023
+italy........morgan de santi..........|gk: a0 d3|................................null..................1977..false...http://www.transfermarkt.com/morgan-de-sanctis/profil/spieler/5880
+italy........federico barletti........|lb: a0 d2|................................null..................1981..false...http://www.transfermarkt.com/federico-balzaretti/profil/spieler/21876
+italy........leonardo bonetti.........|cb: a0 d3|................................null..................1987..false...http://www.transfermarkt.com/leonardo-bonucci/profil/spieler/39983
+italy........andrea nocchia...........|cb: a0 d2|................................null..................1988..false...http://www.transfermarkt.com/andrea-ranocchia/profil/spieler/44327
+italy........davide santio............|lb: a0 d2|rb: a0 d1|......................null..................1991..false...http://www.transfermarkt.com/davide-santon/profil/spieler/84344
+italy........marco vetiano............|dm: a1 d3|cm: a2 d2|......................null..................1992..false...http://www.transfermarkt.com/marco-verratti/profil/spieler/102558
+italy........alberto aquini...........|cm: a2 d1|am: a3 d0|......................null..................1984..false...http://www.transfermarkt.com/alberto-aquilani/profil/spieler/5957
+italy........antonio riccardo.........|rm: a1 d1|am: a2 d1|rf: a3 d0|............null..................1987..false...http://www.transfermarkt.com/antonio-candreva/profil/spieler/25488
+italy........francesco romano.........|ss: a3 d0|................................null..................1976..false...http://www.transfermarkt.com/francesco-totti/profil/spieler/5958
+italy........lorenzo insini...........|lf: a4 d0|ss: a2 d0|......................null..................1991..false...http://www.transfermarkt.com/lorenzo-insigne/profil/spieler/133964
+italy........antonio di nate..........|cf: a3 d0|................................null..................1977..false...http://www.transfermarkt.com/antonio-di-natale/profil/spieler/6031
+italy........paolo milano.............|lb: a0 d3|cb: a0 d6|......................null..................1968..true....http://www.transfermarkt.com/paolo-maldini/profil/spieler/5803
+
+russia.......igor akiniev.............|gk: a0 d2|................................null..................1986..false...http://www.transfermarkt.com/igor-akinfeev/profil/spieler/15570
+russia.......sergey ryzhov............|gk: a0 d1|................................null..................1980..false...http://www.transfermarkt.com/sergey-ryzhikov/profil/spieler/25035
+russia.......yuriy zharkov............|lb: a0 d2|lm: a1 d1|......................null..................1983..false...http://www.transfermarkt.com/yuri-zhirkov/profil/spieler/16760
+russia.......sergey ignat.............|cb: a0 d2|................................null..................1979..false...http://www.transfermarkt.com/sergey-ignashevich/profil/spieler/9644
+russia.......vasiliy bereza...........|cb: a0 d3|................................null..................1982..false...http://www.transfermarkt.com/vasili-berezutski/profil/spieler/15362
+russia.......roman shiska.............|rb: a0 d2|................................null..................1982..false...http://www.transfermarkt.com/roman-shishkin/profil/spieler/28937
+russia.......denis gluschenko.........|dm: a0 d2|cm: a1 d1|......................null..................1987..false...http://www.transfermarkt.com/denis-glushakov/profil/spieler/55336
+russia.......igor denisenko...........|dm: a0 d2|................................null..................1984..false...http://www.transfermarkt.com/igor-denisov/profil/spieler/15650
+russia.......roman shyrokin...........|dm: a0 d2|cm: a1 d1|......................null..................1981..false...http://www.transfermarkt.com/roman-shirokov/profil/spieler/48550
+russia.......alan zagoev..............|cm: a1 d1|am: a3 d0|......................null..................1990..false...http://www.transfermarkt.com/alan-dzagoev/profil/spieler/69683
+russia.......andrey arshanevich.......|am: a2 d1|cf: a2 d0|ss: a3 d0|............null..................1981..false...http://www.transfermarkt.com/andrey-arshavin/profil/spieler/15378
+russia.......aleksandr mostin.........|cm: a2 d2|am: a3 d0|......................null..................1968..true....http://www.transfermarkt.com/aleksandr-mostovoy/profil/spieler/7556
+
+spain........david de gii.............|gk: a0 d5|................................null..................1990..false...http://www.transfermarkt.com/david-de-gea/profil/spieler/59377
+spain........pepe rene................|gk: a0 d2|................................null..................1982..false...http://www.transfermarkt.com/pepe-reina/profil/spieler/7825
+spain........jon bordetxe.............|lb: a0 d2|cb: a0 d1|......................null..................1992..false...http://www.transfermarkt.com/jon-aurtenetxe/profil/spieler/89726
+spain........sergio garcia............|cb: a0 d5|rb: a0 d4|dm: a1 d0|............null..................1986..false...http://www.transfermarkt.com/sergio-ramos/profil/spieler/25557
+spain........raul tortajada...........|cb: a0 d3|................................null..................1985..false...http://www.transfermarkt.com/raul-albiol/profil/spieler/15452
+spain........cesar azpilla............|lb: a0 d4|rb: a0 d3|......................null..................1989..false...http://www.transfermarkt.com/cesar-azpilicueta/profil/spieler/57500
+spain........asier andonegi...........|dm: a0 d2|cm: a1 d1|......................null..................1990..false...http://www.transfermarkt.com/asier-illarramendi/profil/spieler/59344
+spain........xabi olano...............|dm: a1 d3|cm: a2 d2|......................null..................1981..false...http://www.transfermarkt.com/xabi-alonso/profil/spieler/7476
+spain........andres lujan.............|cm: a3 d1|am: a5 d0|......................null..................1984..false...http://www.transfermarkt.com/andres-iniesta/profil/spieler/7600
+spain........juan mate................|am: a4 d0|lf: a3 d0|rf: a3 d0|ss: a3 d0|..null..................1988..false...http://www.transfermarkt.com/juan-mata/profil/spieler/44068
+spain........fernando torrero.........|cf: a3 d0|................................null..................1984..false...http://www.transfermarkt.com/fernando-torres/profil/spieler/7767
+spain........alvaro martinez..........|cf: a3 d0|................................null..................1992..false...http://www.transfermarkt.com/alvaro-morata/profil/spieler/128223
+spain........carles puyi..............|cb: a0 d6|rb: a0 d3|......................null..................1978..true....http://www.transfermarkt.com/carles-puyol/profil/spieler/7594
+
+sweden.......johan willy..............|gk: a0 d1|................................null..................1981..false...http://www.transfermarkt.com/johan-wiland/profil/spieler/24404
+sweden.......kristoffer nordhamen.....|gk: a0 d1|................................null..................1989..false...http://www.transfermarkt.com/kristoffer-nordfeldt/profil/spieler/75890
+sweden.......martin olssen............|lb: a0 d1|................................null..................1988..false...http://www.transfermarkt.com/martin-olsson/profil/spieler/38073
+sweden.......per nills................|cb: a0 d1|................................null..................1982..false...http://www.transfermarkt.com/per-nilsson/profil/spieler/18100
+sweden.......andreas gransson.........|cb: a0 d2|................................null..................1985..false...http://www.transfermarkt.com/andreas-granqvist/profil/spieler/29213
+sweden.......mikael luster............|rb: a0 d2|................................null..................1986..false...http://www.transfermarkt.com/mikael-lustig/profil/spieler/36025
+sweden.......rasmus elme..............|dm: a1 d2|cm: a2 d1|......................null..................1988..false...http://www.transfermarkt.com/rasmus-elm/profil/spieler/30391
+sweden.......kim mikael...............|cm: a2 d1|................................null..................1982..false...http://www.transfermarkt.com/kim-kallstrom/profil/spieler/3730
+sweden.......alexander kaniklic.......|lm: a2 d0|rm: a1 d0|......................null..................1991..false...http://www.transfermarkt.com/alexander-kacaniklic/profil/spieler/51040
+sweden.......jimmy dumraz.............|lf: a1 d0|rf: a1 d0|......................null..................1989..false...http://www.transfermarkt.com/jimmy-durmaz/profil/spieler/80205
+sweden.......marcus berger............|cf: a1 d0|................................null..................1986..false...http://www.transfermarkt.com/marcus-berg/profil/spieler/30418
+sweden.......zlatan ibrahim...........|cf: a5 d0|................................null..................1981..false...http://www.transfermarkt.com/zlatan-ibrahimovic/profil/spieler/3455
+sweden.......olof millberg............|cb: a0 d4|................................null..................1977..true....http://www.transfermarkt.com/olof-mellberg/profil/spieler/3098
+
+ukraine......andriy patyy.............|gk: a0 d2|................................null..................1984..false...http://www.transfermarkt.com/andriy-pyatov/profil/spieler/39996
+ukraine......maksym kovalchuk.........|gk: a0 d2|................................null..................1992..false...http://www.transfermarkt.com/maksym-koval/profil/spieler/120211
+ukraine......vyacheslav shevchukov....|lb: a0 d3|................................null..................1979..false...http://www.transfermarkt.com/vyacheslav-shevchuk/profil/spieler/25820
+ukraine......yaroslav ratskyy.........|cb: a0 d3|................................null..................1989..false...http://www.transfermarkt.com/yaroslav-rakitsky/profil/spieler/89222
+ukraine......yevhen schedryy..........|cb: a0 d3|................................null..................1987..false...http://www.transfermarkt.com/evgen-khacheridi/profil/spieler/69004
+ukraine......bohdan butkovets.........|rb: a0 d1|................................null..................1991..false...http://www.transfermarkt.com/bogdan-butko/profil/spieler/94922
+ukraine......denys garmat.............|dm: a1 d2|cm: a2 d1|......................null..................1990..false...http://www.transfermarkt.com/denys-garmash/profil/spieler/70754
+ukraine......eder.....................|cm: a1 d1|am: a2 d0|......................null..................1980..false...http://www.transfermarkt.com/edmar-golovsky/profil/spieler/43299
+ukraine......ruslan rotenko...........|lm: a1 d1|cm: a1 d2|......................null..................1981..false...http://www.transfermarkt.com/ruslan-rotan/profil/spieler/24049
+ukraine......yevhen konopli...........|am: a2 d0|lf: a4 d0|rf: a2 d0|............null..................1989..false...http://www.transfermarkt.com/evgen-konoplyanka/profil/spieler/58949
+ukraine......oleh husenchuk...........|lm: a1 d1|rm: a1 d1|......................null..................1983..false...http://www.transfermarkt.com/oleg-gusev/profil/spieler/9794
+ukraine......roman zozev..............|cf: a1 d0|................................null..................1989..false...http://www.transfermarkt.com/roman-zozulya/profil/spieler/70767
+ukraine......andriy chasnyk...........|cf: a6 d0|................................null..................1976..true....http://www.transfermarkt.com/andriy-shevchenko/profil/spieler/3522
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
