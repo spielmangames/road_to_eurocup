@@ -6,10 +6,11 @@ use Sonata\AdminBundle\Admin\Admin;
 use Sonata\AdminBundle\Form\FormMapper;
 use Sonata\AdminBundle\Datagrid\DatagridMapper;
 use Sonata\AdminBundle\Datagrid\ListMapper;
+use AppBundle\Form\Type\SkillsType;
 
 class PlayerAdmin extends Admin
 {
-    /**
+     /**
      * @param FormMapper $formMapper
      *
      * @return void
@@ -29,6 +30,7 @@ class PlayerAdmin extends Admin
                 )
             )
             ->add('born', 'integer')
+            ->add('skills', new SkillsType())
             ->add(
                 'perks',
                 'entity',
@@ -36,7 +38,7 @@ class PlayerAdmin extends Admin
                     'class' => 'AppBundle:Perk',
                     'choice_label' => 'name',
                     'multiple' => true,
-                    'required' => true,
+                    'required' => false,
                 )
             )
             ->add('transfermarkt', null, array('label' => 'Link to "Player data" page on Transfermarkt'))

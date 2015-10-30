@@ -3,3 +3,6 @@ php app/console doctrine:database:drop --force && php app/console doctrine:datab
 
 php app/console doctrine:generate:entities AppBundle/Entity
 php app/console doctrine:schema:update --force
+
+
+http://magento2.loc/road_to_eurocup/web/app_dev.php/admin/dashboard

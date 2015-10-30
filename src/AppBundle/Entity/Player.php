@@ -6,6 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Doctrine\Common\Collections\ArrayCollection as ArrayCollection;
 use AppBundle\Entity\Perk as Perk;
+use AppBundle\Entity\Position as Position;
 use AppBundle\Entity\Team as Team;
 
 /**
@@ -42,6 +43,11 @@ class Player
      * @ORM\JoinColumn(name="team_id", referencedColumnName="id")
      */
     protected $team;
+
+    /**
+     * @ORM\Column(type="string", length=2048)
+     */
+    protected $skills;
 
     /**
      * @ORM\ManyToMany(targetEntity="Perk")
@@ -167,6 +173,29 @@ class Player
     public function getTeam()
     {
         return $this->team;
+    }
+
+    /**
+     * Set skills
+     *
+     * @param string $skills
+     * @return Player
+     */
+    public function setSkills($skills)
+    {
+        $this->skills = json_encode($skills);
+
+        return $this;
+    }
+
+    /**
+     * Get skills
+     *
+     * @return \Doctrine\Common\Collections\Collection
+     */
+    public function getSkills()
+    {
+        return json_decode($this->skills);
     }
 
     /**

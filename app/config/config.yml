@@ -36,6 +36,8 @@ framework:
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
+    form_themes:
+        - 'AppBundle:Form:fields.html.twig'
 
 # Assetic Configuration
 assetic:
@@ -140,3 +142,6 @@ sonata_block:
 sonata_admin:
     title:      road to eurocup
     title_logo: ../documentation/logo.png
+    templates:
+        show:   AppBundle:Admin:ShowPlayer.html.twig
+        show:   AppBundle:Admin:ShowTeam.html.twig
