@@ -1,0 +1,123 @@
+
+adidas  @dadas
+puma    @rita
+umbro   @rhombi
+nike    @lines
+kappa   @tema
+
+
+----------EUROPE----------------------------------------------------------------------------------
+
+    germany:
+        base level......3
+        rating..........
+        best position...
+        home kit: @dadas model A
+            jersey: white base, black collar, linear black dadas lines on white sleeves, 3 thin crossing lines on the chest (flag imitation) with paddings, black font on the back
+            shorts: black base
+            socks: white base, crossing black dadas lines on the top
+            armband: linear flag imitation
+        away kit: @dadas model B
+            jersey: 1970green base, white collar, linear white dadas lines on 1970green sleeves, white DEUTSCHLAND text on the chest, white font on the back
+            shorts: white base
+            socks: 1970green base, crossing white dadas lines on the top
+            armband: white base, linear black DEUTSCHLAND
+        gk: ... base, black & grey vector-styled eagle on the chest
+
+    spain:
+        base level......3
+        rating..........
+        best position...
+        home kit: @dadas model C
+            jersey: red base, darkblue collar, linear yellow dadas lines on darkblue sleeves, darkblue under sleeves, yellow font on the back
+            shorts: darkblue base
+            socks: darkblue base, crossing red dadas lines on the top
+            armband: white base, linear black ESPANA
+        away kit: @dadas model B
+            jersey: yellow base, black collar, linear black dadas lines on yellow sleeves, black ESPANA on the chest, black font on the back
+            shorts: black base
+            socks: black base, red crossing dadas lines on the top
+            armband: white base, linear black ESPANA
+        gk: ... base, black & grey vector-styled crown on the chest
+
+    france:
+        base level......3
+        rating..........
+        best position...
+        home kit: @dadas model A
+            jersey: blue base, red collar, linear white dadas lines on blue sleeves, 3 thin crossing lines on the chest (red + white + white) with paddings, white font on the back
+            shorts: white base
+            socks: red base, crossing white dadas lines on the top
+            armband: linear flag imitation
+        away kit: @dadas model B
+            jersey: 1970green base, white collar, linear white dadas lines on 1970green sleeves, white DEUTSCHLAND text on the chest, white font on the back
+            shorts: white base
+            socks: 1970green base, crossing white dadas lines on the top
+            armband: white base, linear black DEUTSCHLAND
+        gk: ... base, black & grey vector-styled eagle on the chest
+
+
+    [3] england
+    [3] italy
+    [3] holland -- orange
+    [3] portugal
+
+    [2] belgium
+    [2] croatia --
+    [2] romania -- like spanish
+    [2] russia
+    [2] czech
+    [2] denmark
+    [2] ukraine -- yellow -- blue -- cells on sleeves
+
+    [1] switzerland
+    [1] turkey
+    [1] bosnia
+    [1] serbia
+    [1] slovakia
+    [1] sweden
+    [1] wales
+    [1] scotland -- big cross on the cheast (flag imitation)
+    [1] ireland
+    [1] austria
+    [1] hungary
+
+
+asia (2 of 6)
+
+    [2] south korea
+    [2] japan
+
+    [1] australia
+    [1] iran
+    [1] saudi arabia
+    [1] china
+
+
+america (4 of 12)
+
+    [3] argentina @dadas
+    [3] brazil @dadas
+
+    [2] chile
+    [2] uruguay
+    [2] mexico @dadas
+    [2] colombia
+
+    [1] usa
+    [1] ecuador
+    [1] paraguay
+    [1] peru
+    [1] costa rica
+    [1] jamaica
+
+
+africa (2 of 6)
+
+    [2] ivory coast
+    [2] ghana
+    [2] nigeria
+    [2] cameroon
+
+    [1] algeria
+    [1] egypt
