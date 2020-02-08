@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>gameplans</title>
+    <link rel="stylesheet" href="code/card.css">
+</head>
+<body>
+<script type="text/x-handlebars">
+    {{outlet}}
+
+</script>
+<script type="text/x-handlebars" id="index">
+    {{#each gameplan in model}}
+        <div class="card">
+            <div class="title gameplan">
+                ► план на игру
+            </div>
+            <div class="paragraph">
+                команда:
+            </div>
+            <div class="paragraph">
+                очки атаки:<img class="flaglong"{{bind-attr src=gameplan.bricklong}}"/>
+                обороны:<img class="flaglong"{{bind-attr src=gameplan.bricklong}}"/>
+            </div>
+            <div class="paragraph">
+                план атак:<img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/>
+            </div>
+            <div class="paragraph">
+                оборона:<img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/>
+            </div>
+            <div class="paragraph">
+                карточки:<img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/><img class="flag"{{bind-attr src=gameplan.brick}}"/>
+            </div>
+            <div class="paragraph">
+                мораль:<img class="flaglong"{{bind-attr src=gameplan.bricklong}}"/>
+            </div>
+        </div>
+    {{/each}}
+
+</script>
+<script src="code/lib/js/libs/jquery-1.10.2.js"></script>
+<script src="code/lib/js/libs/handlebars-v2.0.0.js"></script>
+<script src="code/lib/js/libs/ember-1.9.1.js"></script>
+<script src="code/lib/js/app.js"></script>
+</body>
+</html>

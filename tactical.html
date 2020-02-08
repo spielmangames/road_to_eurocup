@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>teamcards</title>
+    <link rel="stylesheet" href="code/card.css">
+</head>
+<body>
+<script type="text/x-handlebars">
+    {{outlet}}
+</script>
+<script type="text/x-handlebars" id="index">
+    {{#each teamcard in model}}
+        <div class="card">
+            <div class="title teamcard">
+                ► тактическая карточка
+            </div>
+        </div>
+        <div class="card">
+            <div class="title">
+                {{teamcard.key}}: {{teamcard.title}}
+            </div>
+            <br>
+            <div class="paragraph">
+                {{teamcard.description1}}
+            </div>
+            {{#if teamcard.description2}}
+                <div class="paragraph">
+                    {{teamcard.description2}}
+                </div>
+            {{/if}}
+            {{#if teamcard.result}}
+                <br>
+                <div class="paragraph">
+                    {{teamcard.result}}
+                </div>
+            {{/if}}
+        </div>
+    {{/each}}
+</script>
+<script src="code/lib/js/libs/jquery-1.10.2.js"></script>
+<script src="code/lib/js/libs/handlebars-v2.0.0.js"></script>
+<script src="code/lib/js/libs/ember-1.9.1.js"></script>
+<script src="code/lib/js/app.js"></script>
+</body>
+</html>

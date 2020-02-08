@@ -1,0 +1,64 @@
+.card {
+    float: left;
+    width: 195px;
+    height: 279px;
+    border: 1px dashed silver;
+    padding: 20px 10px 10px 10px;
+    font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+    font-size: 10px;
+}
+
+.gameplan {
+    color: indianred;
+    font-weight: bold;
+}
+
+.flaglong {
+    max-height: 14px;
+    vertical-align: middle;
+}
+
+.perk {
+    color: darkorange;
+    font-weight: bold;
+}
+
+.teamcard {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+.hometeamcard {
+    color: forestgreen;
+    font-weight: bold;
+}
+
+.title {
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    margin: 0 -8px;
+    padding: 8px;
+}
+
+.flag {
+    max-width: 14px;
+    max-height: 14px;
+    vertical-align: middle;
+}
+
+.photo {
+    border: 1px solid black;
+    margin: 0 10px 0 10px;
+    max-width: 175px;
+    max-height: 269px;
+    height: auto;
+}
+
+.paragraph {
+    padding-top: 10px;
+}
+
+.tab {
+    display: inline;
+    padding-left: 10px;
+}

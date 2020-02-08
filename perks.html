@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>perks</title>
+    <link rel="stylesheet" href="code/card.css">
+</head>
+<body>
+<script type="text/x-handlebars">
+    {{outlet}}
+</script>
+<script type="text/x-handlebars" id="index">
+    {{#each perk in model}}
+        <div class="card">
+            <div class="title perk">
+                ► способность игрока
+            </div>
+        </div>
+        <div class="card">
+            <div class="title">
+                {{perk.key}}: {{perk.title}}
+            </div>
+            <br>
+            <div class="paragraph">
+                {{perk.short_description}}
+            </div>
+            <div class="paragraph">
+                {{perk.long_description}}
+            </div>
+            <br>
+            <br>
+            <div class="paragraph">
+                * результат:
+                {{perk.notes}}
+            </div>
+        </div>
+    {{/each}}
+</script>
+<script src="code/lib/js/libs/jquery-1.10.2.js"></script>
+<script src="code/lib/js/libs/handlebars-v2.0.0.js"></script>
+<script src="code/lib/js/libs/ember-1.9.1.js"></script>
+<script src="code/lib/js/app.js"></script>
+</body>
+</html>

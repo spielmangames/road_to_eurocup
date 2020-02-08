@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>players cards</title>
+    <link rel="stylesheet" href="code/card.css">
+</head>
+<body>
+<script type="text/x-handlebars">
+    {{outlet}}
+</script>
+<script type="text/x-handlebars" id="index">
+    {{#each player in model}}
+        <div class="card">
+            <img class="photo"{{bind-attr src=player.photo}}"/>
+        </div>
+        <div class="card">
+            <div class="title">
+                {{player.name}}
+                {{player.classic}}
+            </div>
+            <br>
+            <div class="paragraph">
+                born: {{player.dateOfBirth}}
+            </div>
+            <div class="paragraph">
+                nationality: <img class="flag"{{bind-attr src=player.nationalityFlag}}"/>
+                {{player.nationality}}
+            </div>
+            <div class="paragraph">
+                attributes:
+                {{#each attribute in player.attributes}}
+                    <div>
+                        <div class="tab">
+                            [{{attribute.position}}]
+                        </div>
+                        <div class="tab">
+                            attack = {{attribute.attack}}
+                        </div>
+                        <div class="tab">
+                            defence = {{attribute.defence}}
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+            {{#if player.attackPerks}}
+                <div class="paragraph">
+                    attack perks:
+                    {{#each perk in player.attackPerks}}
+                        <div>
+                            <div class="tab">
+                                [{{perk.key}}]
+                            </div>
+                            <div class="tab">
+                                {{perk.title}}
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            {{/if}}
+            {{#if player.defencePerks}}
+                <div class="paragraph">
+                    defence perks:
+                    {{#each perk in player.defencePerks}}
+                        <div>
+                            <div class="tab">
+                                [{{perk.key}}]
+                            </div>
+                            <div class="tab">
+                                {{perk.title}}
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            {{/if}}
+        </div>
+    {{/each}}
+</script>
+<script src="code/lib/js/libs/jquery-1.10.2.js"></script>
+<script src="code/lib/js/libs/handlebars-v2.0.0.js"></script>
+<script src="code/lib/js/libs/ember-1.9.1.js"></script>
+<script src="code/lib/js/app.js"></script>
+</body>
+</html>
